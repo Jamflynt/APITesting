@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background: #505A59;
+}
+
+.random {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.advice {
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+    background: #fff;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+.result {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+    background: #fff;
+}
