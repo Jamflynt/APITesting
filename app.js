@@ -27,7 +27,7 @@ async function searchAdvice() {
         const response = await axios.get(fullURL);
         console.log(response.data);
         const items = response.data.slips;
-        resultDiv.innerText = response.data.slips[Math.floor(Math.random()*items.length)].advice;
+        resultDiv.innerText = response.data.slips[Math.floor(Math.random()*items.length)+1].advice;
         // Returns random index if there is more than one
         
     } catch (err){
